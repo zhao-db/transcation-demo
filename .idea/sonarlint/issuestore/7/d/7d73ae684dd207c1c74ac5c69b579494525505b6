@@ -1,0 +1,11 @@
+
+b	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(­İ¤Ì8ëñÂÈ×.
+H
+java:S1481!"&Remove this unused "u" local variable.(çßºğıÿÿÿÿ8ëñÂÈ×.
+h
+java:S1192,"FDefine a constant instead of duplicating this literal "zxcvg" 3 times.( …Í’ûÿÿÿÿ8”®·Ø.
+W
+java:S1854!"5Remove this useless assignment to local variable "u".(çßºğıÿÿÿÿ8ëñÂÈ×.
+h
+java:S1192."FDefine a constant instead of duplicating this literal "zzyux" 3 times.(ªøÆÿÿÿÿÿ8”®·Ø.
+g	java:S112G"FDefine and throw a dedicated exception instead of using a generic one.(¯åÕøÿÿÿÿ8È’·Ø.

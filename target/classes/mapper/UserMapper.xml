@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.transcational.transcationaldemo.mapper.UserMapper">
+    <resultMap id="BaseResultMap" type="com.example.demo.transcational.transcationaldemo.entity.User">
+        <id column="id" property="id"/>
+        <result column="age" property="age"/>
+        <result column="nick_name" property="nickName"/>
+        <result column="password" property="password"/>
+        <result column="user_name" property="userName"/>
+        <result column="price" property="price"/>
+    </resultMap>
+    <insert id="saveUser">
+        insert into user (id,age,nick_name,password,user_name,price )
+        values (#{user.id},#{user.age},#{user.nickName},#{user.password},#{user.userName},#{user.price})
+    </insert>
+    <select id="getUserById" resultMap="BaseResultMap">
+        select * from user where id = #{id}
+    </select>
+
+</mapper>
