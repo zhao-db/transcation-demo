@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.193.129:3306/zdb_test?useUnicode=true&characterEncodeing=UTF-8&useSSL=false
+    username: zhaodb
+    password: 123456
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
